@@ -27,7 +27,7 @@ alias dcu="docker compose up"
 # Useful stuff
 alias ai="opencode run"
 alias yadmu='yadm add -u && yadm commit -m "Update config $(date)" && yadm push'
-
+alias brew-dump="brew bundle dump --file=~/Brewfile --force --describe"
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
 
