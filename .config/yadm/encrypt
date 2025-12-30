@@ -1,0 +1,2 @@
+.ssh/*.key
+.ssh/id_*
