@@ -23,6 +23,7 @@ alias dcu="docker compose up"
 
 # Useful stuff
 alias ai="opencode run"
+alias yadmu='yadm add -u && yadm commit -m "Update config $(date)" && yadm push'
 
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
