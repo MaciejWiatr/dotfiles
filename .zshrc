@@ -4,6 +4,8 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $HOMEBREW_PREFIX/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source $ZSH/oh-my-zsh.sh
 
 # Git commands
@@ -18,6 +20,9 @@ alias python="python3"
 # Docker commands
 alias dcd="docker compose down"
 alias dcu="docker compose up"
+
+# Useful stuff
+alias ai="opencode run"
 
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
