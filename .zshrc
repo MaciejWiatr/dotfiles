@@ -5,6 +5,7 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   you-should-use
+  nvm
 )
 
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
